@@ -1,6 +1,6 @@
 import cv2
 import os
-from tkinter import font
+
 
 cascPath=os.path.dirname(cv2.__file__)+"/data/haarcascade_frontalface_default.xml"
 cascPath2=os.path.dirname(cv2.__file__)+"/data/haarcascade_fullbody.xml"
